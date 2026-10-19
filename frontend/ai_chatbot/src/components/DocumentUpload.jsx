@@ -1,7 +1,8 @@
 import { useRef, useState } from "react";
 import "./DocumentUpload.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://ai-chatbot-xrik.onrender.com";
+// const API_URL = "http://127.0.0.1:8000";
 const MAX_FILE_SIZE = 5 * 1024 * 1024;
 
 export default function DocumentUpload({ onUploaded }) {
