@@ -1,0 +1,4 @@
+The Bluebird project deadline is December 15, 2026.
+The Bluebird project manager is Priya Raman.
+The project uses PostgreSQL for its primary database.
+The project team meets every Tuesday at 10 AM.

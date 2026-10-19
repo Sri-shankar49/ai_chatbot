@@ -1,0 +1,44 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+chroma_data/
+backups/
+
+
+
+
+# Local databases and application data
+chat_history.db
+chat_history.db-journal
+chat_history.db-wal
+chat_history.db-shm
+data/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Persistent vector database
+chroma_data/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+

@@ -1,0 +1,17 @@
+[
+    {
+        "question": "How many annual leave days are allowed?",
+        "expected_source": "employee_policy.pdf",
+        "should_answer_from_documents": true
+    },
+    {
+        "question": "What is the office location?",
+        "expected_source": "employee_policy.pdf",
+        "should_answer_from_documents": true
+    },
+    {
+        "question": "What was the company's revenue in 2050?",
+        "expected_source": null,
+        "should_answer_from_documents": false
+    }
+]
