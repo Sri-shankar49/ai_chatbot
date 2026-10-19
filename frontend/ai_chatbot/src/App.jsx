@@ -303,8 +303,9 @@ import ConversationSidebar from "./components/ConversationSidebar";
 import ReactMarkdown from "react-markdown";
 import DocumentUpload from "./components/DocumentUpload";
 
+const API_URL = "https://ai-chatbot-xrik.onrender.com";
 // const API_URL = "http://127.0.0.1:8000";
-const API_URL = "http://127.0.0.1:8001";
+// const API_URL = "http://127.0.0.1:8001";
 
 const WELCOME_MESSAGE = {
   role: "assistant",
