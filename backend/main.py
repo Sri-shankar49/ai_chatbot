@@ -23,10 +23,10 @@ app = FastAPI(title="AI Chatbot API", lifespan=lifespan)
 # Allow our local React frontend to communicate with FastAPI.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["*"],
     allow_credentials=False,
-    allow_methods=["GET", "POST", "DELETE", "OPTIONS"],
-    allow_headers=["Content-Type", "Authorization"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # @app.on_event("startup")
