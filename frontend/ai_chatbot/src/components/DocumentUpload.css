@@ -52,3 +52,93 @@
 .upload-error {
   color: #b91c1c;
 }
+
+
+
+
+
+
+
+
+
+
+/* Responsive document upload */
+.document-upload {
+  width: 100%;
+  min-width: 0;
+}
+
+.document-upload form {
+  min-width: 0;
+}
+
+.document-upload input[type="file"] {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.document-upload button {
+  width: 100%;
+  min-height: 44px;
+}
+
+.upload-file-name {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 650px) {
+  .document-upload {
+    padding: 12px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .document-upload h2 {
+    font-size: 15px;
+  }
+
+  .document-upload p {
+    font-size: 12px;
+  }
+
+  .document-upload input[type="file"] {
+    font-size: 12px;
+  }
+}
+
+
+/* Compact upload panel on mobile */
+@media (max-width: 650px) {
+  .document-upload {
+    padding: 10px 12px;
+    border-radius: 0;
+  }
+
+  .document-upload h2 {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .document-upload p {
+    margin: 5px 0;
+    font-size: 12px;
+  }
+
+  .document-upload form {
+    gap: 8px;
+  }
+
+  .document-upload input[type="file"] {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .document-upload button {
+    min-height: 40px;
+    padding: 9px;
+  }
+
+  .upload-file-name {
+    font-size: 12px;
+  }
+}
